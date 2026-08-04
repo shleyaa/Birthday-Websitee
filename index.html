@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- =========================
+        PAGE 1
+========================= -->
+
+<section id="page1">
+
+    <div class="content">
+
+        <img src="images/cat.png" class="cat" alt="Cute Cat">
+
+        <h1>I made something special for u 💖</h1>
+
+        <p>Do u wanna see it?</p>
+
+        <div class="btn-box">
+
+            <button id="yesBtn">YES 💕</button>
+
+            <button id="noBtn">NO 🙈</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        PAGE 2
+========================= -->
+
+<section id="page2" style="display:none;">
+
+    <div class="birthday-card">
+
+        <h1>🎂 HAPPY BIRTHDAY MONAAAAAAAA JIIIIIIIII 🎂</h1>
+
+        <img src="images/cake.png" class="cake" alt="Cake">
+
+        <h2>Aaj AAPKA khaas din hai jii! 💖</h2>
+
+        <p>
+
+            Bas hamesha aise hi haste rho,<br>
+
+            khush rho, aur aapko bohot SARRIII<br>
+
+            khushiyan mile meri begamm 🥹🌸
+
+        </p>
+
+        <button id="continueBtn">
+
+            Continue ➜
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        PAGE 3
+========================= -->
+
+<section id="page3" style="display:none;">
+
+    <h1 class="memoryTitle">
+
+        💖 Our Memories 💖
+
+    </h1>
+
+    <p class="memoryText">
+
+        Every picture tells a little story...
+
+    </p>
+
+    <div id="memoryGallery">
+
+        <!-- Top Left -->
+
+        <div class="card c2">
+
+            <img src="images/mona2.png" alt="Memory 2">
+
+        </div>
+
+        <!-- Top Right -->
+
+        <div class="card c3">
+
+            <img src="images/mona3.png" alt="Memory 3">
+
+        </div>
+
+        <!-- Bottom Left -->
+
+        <div class="card c4">
+
+            <img src="images/mona4.png" alt="Memory 4">
+
+        </div>
+
+        <!-- Bottom Right -->
+
+        <div class="card c5">
+
+            <img src="images/mona5.png" alt="Memory 5">
+
+        </div>
+
+        <!-- CENTER PHOTO -->
+
+        <div class="card centerCard">
+
+            <img src="images/mona.png" alt="Main Memory">
+
+        </div>
+
+    </div>
+
+    <button id="page3Next">
+
+        Continue ➜
+
+    </button>
+
+</section>
+
+
+
+
+<!-- =========================
+        PAGE 4
+========================= -->
+
+<section id="page4" style="display:none;">
+
+    <div class="musicContainer">
+
+        <h1 class="musicTitle">
+            💿 Our Playlist 💖
+        </h1>
+
+        <p class="musicSubtitle">
+            Every song reminds me of you ❤️
+        </p>
+
+        <!-- CD -->
+
+        <div class="cdContainer">
+
+    <img src="images/cd.png" id="cd" class="cd">
+
+    <img src="images/cover1aap.jpg" class="albumPhoto">
+
+</div>
+        <!-- SONG INFO -->
+
+        <div class="songInfo">
+
+            <h2 id="songName">
+                Song 1
+            </h2>
+
+            <p id="artistName">
+                For My Favourite Person ❤️
+            </p>
+
+        </div>
+
+        <!-- AUDIO -->
+
+        <audio id="audioPlayer"></audio>
+
+        <!-- CONTROLS -->
+
+        <div class="controls">
+
+            <button id="prevBtn">
+                ⏮
+            </button>
+
+            <button id="playBtn">
+                ▶
+            </button>
+
+            <button id="nextBtn">
+                ⏭
+            </button>
+
+        </div>
+
+        <!-- PROGRESS -->
+
+        <div class="progressArea">
+
+            <span id="currentTime">
+                0:00
+            </span>
+
+            <input
+                type="range"
+                id="progressBar"
+                value="0"
+                min="0"
+                max="100">
+
+            <span id="duration">
+                0:00
+            </span>
+
+        </div>
+
+        <!-- MESSAGE -->
+
+        <p class="musicMessage">
+
+            Every memory has a song,
+            and every song reminds me of you. 💖
+
+        </p>
+
+        <!-- CONTINUE -->
+
+        <button id="page4Next" style="display:none;">
+
+            Continue ➜
+
+        </button>
+
+    </div>
+
+</section>
+<!-- =========================
+        PAGE 5
+========================= -->
+
+<section id="page5" style="display:none;">
+<div class="hearts">
+
+<span>💖</span>
+<span>💕</span>
+<span>🤍</span>
+<span>💗</span>
+<span>❤</span>
+<span>💞</span>
+<span>💖</span>
+<span>💕</span>
+<span>🤍</span>
+<span>💗</span>
+<span>❤</span>
+<span>💞</span>
+<span>💖</span>
+<span>💕</span>
+<span>🤍</span>
+<span>💗</span>
+<span>❤</span>
+<span>💞</span>
+<span>💖</span>
+<span>💕</span>
+
+</div>   
+
+    <div class="letterContainer">
+
+        <!-- Heading -->
+
+        <div class="lastThing">
+            ✿ one last thing ✿
+        </div>
+
+        <h1 class="letterTitle">
+            A Note For You 💌
+        </h1>
+
+        <!-- Letter Paper -->
+
+        <div class="paper">
+
+            <!-- Tape -->
+
+            <img src="images/tape1.png"
+                 class="tape tapeLeft"
+                 alt="">
+
+            <img src="images/tape2.png"
+                 class="tape tapeRight"
+                 alt="">
+
+            <!-- Stickers -->
+
+            <img src="images/flower.png"
+                 class="sticker flower"
+                 alt="">
+
+            <img src="images/heart.png"
+                 class="sticker heart"
+                 alt="">
+
+            <img src="images/frog.png"
+                 class="sticker frog"
+                 alt="">
+            <img src="images/cat4.png"
+                class="peekCat" 
+                alt="Cute Cat">     
+           
+
+            <!-- Typing Letter -->
+
+            <pre id="typingText"></pre>
+
+            <span id="cursor">|</span>
+
+            <!-- Signature -->
+
+            <div class="signature">
+
+                <p>Youlj lubinglyy,</p>
+
+                <h2>~Aapki Zicc😉😝</h2>
+
+            </div>
+
+        </div>
+
+        <!-- Finish -->
+
+        <button id="finishBtn">
+
+            💖 The End 💖
+
+        </button>
+
+    </div>
+
+    <!-- Music -->
+
+    <audio id="letterMusic" loop>
+
+        <source src="music/untilifoundyou.mp3" type="audio/mpeg">
+
+    </audio>
+
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
